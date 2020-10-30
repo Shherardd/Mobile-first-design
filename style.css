@@ -115,7 +115,7 @@ main {
 .main-exchange-container {
     widows: 100px;
     height: auto;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 30px;
     text-align: center;
 }
@@ -138,6 +138,7 @@ main {
 }
 
 .main-exchange-container h2 {
+    margin-top: 20px;
     margin-bottom: 30px;
     font-size: 2.4rem;
     font-weight: bold;
