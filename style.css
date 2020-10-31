@@ -66,6 +66,7 @@ header img {
     font-weight: bold;
     line-height: 2.6rem;
     background: linear-gradient(264.95deg, #FFAE35 15.84%, #FC5865 48.93%, #812FA7 78.5%);
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -108,12 +109,14 @@ header img {
 
 main {
     width: 100%;
+    min-width: 320px;
     height: auto;
     background-color: var(--off-white);
 }
 
 .main-exchange-container {
-    widows: 100px;
+    width: 100%;
+    min-width: 320px;
     height: auto;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -259,4 +262,120 @@ main {
 
 .comisiones .currency-table--date {
     background-color: var(--soft-blue);
+}
+
+.name-product-detail {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    position: relative;
+    padding: 20px 10px;
+    background-color: var(--black);
+}
+
+.name-product-detail .chip {
+    width: 40px;
+    height: 24px;
+    position: absolute;
+    left: calc(50% - 15px);
+    top: calc(0% - 12px);
+    background-image: url('./assets/icons/chip.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.product-detail--title h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
+    padding-top: 40px;
+    padding-bottom: 32px;
+}
+
+.product-detail--title p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+    text-align: center;
+}
+
+.product-cards--container {
+    margin-top: 30px;
+}
+
+.product-detail--card {    
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    background-color: var(--warm-black);
+    padding: 22px 16px;
+    border-radius: 10px;
+    margin: 15px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+}
+
+.product-detail--card .icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-cards--container .product--card-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    margin-top: 10px;
+}
+
+.product-cards--container .product--card-body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--grey);
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.product-detail--card .clock {    
+    background-image: url('./assets/icons/clock.svg');
+}
+.product-detail--card .eye {    
+    background-image: url('./assets/icons/eye.svg');
+}
+.product-detail--card .dollar-sign {    
+    background-image: url('./assets/icons/dollar-sign.svg');
+}
+.product-detail--card .check-circle {    
+    background-image: url('./assets/icons/check-circle.svg');
+}
+
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/images/bitcoinbaby2x.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    text-align: center;
+    padding-top: 12vh;
+}
+
+.bitcoin-img-container h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    top: 50px;
 }
