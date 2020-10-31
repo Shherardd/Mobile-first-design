@@ -252,3 +252,11 @@ main {
     font-weight: 300;
     color: var(--warm-black);
 }
+
+ .comisiones .title__blue{
+    color: var(--secondary-blue);
+}
+
+.comisiones .currency-table--date {
+    background-color: var(--soft-blue);
+}
