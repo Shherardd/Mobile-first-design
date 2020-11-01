@@ -29,6 +29,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -363,7 +364,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('./assets/images/bitcoinbaby2x.png');
+    background-image: url('./assets/images/bitcoinbay2x.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
@@ -378,4 +379,33 @@ main {
     line-height: 2.6rem;
     color: var(--just-white);
     top: 50px;
+}
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding: 65px 0;
+    text-align: center;
+}
+
+.plans--title {
+    width: 90%;
+    min-width: 288;
+    height: auto;
+    margin: 0 auto;
+}
+
+.plans--title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: var(--black);
+}
+
+.plans--title p {
+    padding: 25px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
 }
