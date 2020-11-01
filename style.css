@@ -410,6 +410,11 @@ main {
     color: #757575;
 }
 
+.plans-container--slider {
+    display: flex;
+    overflow: scroll;
+}
+
 .plans-container--card {
     position: relative;
     width: 70%;
