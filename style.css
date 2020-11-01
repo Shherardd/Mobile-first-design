@@ -161,7 +161,7 @@ main {
 .main-currency-table {
     width: 70%;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 400px;
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
@@ -364,7 +364,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('./assets/images/bitcoinbay2x.png');
+    background-image: url('./assets/images/bitcoinbaby2x.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
@@ -412,7 +412,7 @@ main {
 
 .plans-container--slider {
     display: flex;
-    height: 316px;
+    height: 320px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -422,10 +422,10 @@ main {
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 5px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -497,4 +497,35 @@ main {
     height: 20px;
     background-image: url('./assets/icons/arrow-right.svg');
     vertical-align: text-bottom;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .links ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--just-white);
 }
